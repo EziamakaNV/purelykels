@@ -1,26 +1,11 @@
-import React, { Component } from 'react';
-import Header from './Header';
-import Footer from './Footer'
+import React from 'react';
 
-class Home extends Component {
-    render(){
-        return(
-            /* React.fragment helps reduce the amount of nodes
-            i.e eliminates the need of a div wrapper*/
-            <React.Fragment>
-                <main>
-                    <Header/>
-                    <section>
-                        <h1>
-                            The number 1 Akara Joint!
-                        </h1>
-                    </section>
-                    <section></section>
-                    <Footer year = { 2019 }/>
-                </main>
-            </React.Fragment>
-        )
-    }
-}
+const Home = (props) => (
+    <section id = 'home'>
+        <h1>
+            The number 1 Online Akara Spot!
+        </h1>
+    </section>
+);
 
-export default Home
+export default Home;

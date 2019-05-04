@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 class NavLinks extends Component {
     render(){
         return (
-            <React.Fragment>
                 <section>
                     <nav>
                         <a href = '#home'>HOME</a>
@@ -12,7 +11,6 @@ class NavLinks extends Component {
                         <a href = '#contactus'>CONTACT US</a>
                     </nav>
                 </section>
-            </React.Fragment>
         );
     }
 }
