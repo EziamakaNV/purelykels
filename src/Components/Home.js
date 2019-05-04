@@ -16,7 +16,7 @@ class Home extends Component {
                         </h1>
                     </section>
                     <section></section>
-                    <Footer/>
+                    <Footer year = { 2019 }/>
                 </main>
             </React.Fragment>
         )
