@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Header from './Header'
+import Header from './Header';
+import Footer from './Footer'
 
 class Home extends Component {
     render(){
@@ -14,6 +15,8 @@ class Home extends Component {
                             The number 1 Akara Joint!
                         </h1>
                     </section>
+                    <section></section>
+                    <Footer year = { 2019 }/>
                 </main>
             </React.Fragment>
         )
