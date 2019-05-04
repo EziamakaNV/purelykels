@@ -5,6 +5,18 @@ header {
   font-size: 100%;
 }
 
+footer {
+  background-color: red;
+  color: white;
+  height: 10vh;
+  font-size: 100%;
+  text-align: center;
+}
+
+footer p{
+  padding-top: 2%
+}
+
 header section{
   margin-top: 1%;
 }
